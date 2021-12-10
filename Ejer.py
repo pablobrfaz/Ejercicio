@@ -7,7 +7,8 @@ comparacion = []
 def name_emp():
     arch = estab_archivo("empleados.txt", 'a')
     print("New Employee: ")
-    empl = input("Input a New Employee: ")   
+    empl = input("Input a New Employee: ")  
+    print("Input your schedule of work, indicating the time and hours  ej: MO10: 00-12: 00:")  
     dia1 =input("Day 1:") 
     dia2 =input("Day 2:")
     dia3 =input("Day 3:")
